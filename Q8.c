@@ -35,10 +35,10 @@ int main()
     char a[101],b[101];
 
     printf("enter first word: ");
-    scanf("%100s",a);
+    scanf("%s",a);
 
     printf("enter second word: ");
-    scanf("%100s",b);
+    scanf("%s",b);
 
     int i;
     for(i=0;i<strlen(a);i=i+1)
